@@ -1,0 +1,13 @@
+:root {
+    --main-background: #fff;
+    --error-message-background: rgb(252, 145, 145);
+    --main-text: #000;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --main-background: #000;
+        --error-message-background: rgb(167, 20, 20);
+        --main-text: #fff;
+    }
+}
