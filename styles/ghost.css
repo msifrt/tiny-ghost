@@ -18,4 +18,6 @@
     transform: translate(-50%, -50%);
     padding: 5px;
     position: fixed;
+    cursor: pointer;
+    transition: opacity 250ms;
 }
